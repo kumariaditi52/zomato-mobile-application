@@ -1,25 +1,31 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import {
+  SafeAreaView,
+  StatusBar,
+  StyleSheet,
+  View,
+  Text,
+  Platform
+} from 'react-native';
+import HomeScreen from './screens/HomeScreen';
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>My First React Native App</Text>
-    </View>
+    <SafeAreaView style={styles.container}>
+      {/* StatusBar styling */}
+      <StatusBar backgroundColor="#cb202d" barStyle="light-content" />
+      {Platform.OS === 'android' && StatusBar.setBackgroundColor('#cb202d')}
+
+      {/* Home Screen */}
+      <HomeScreen />
+    </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#f5f5f5',
-  },
-  text: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    color: '#333',
+    backgroundColor: '#f8f8f8',
   },
 });
 
