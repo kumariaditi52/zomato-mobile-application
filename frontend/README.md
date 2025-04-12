@@ -1,5 +1,5 @@
 ![image alt](https://github.com/kumariaditi52/zomato-mobile-application/blob/bd8208404c568507d294aad571f175078d711070/Screenshot%202025-04-13%20013545.png)
-
+![image alt](https://github.com/kumariaditi52/zomato-mobile-application/blob/e8187ad0c4bd63e3e11c22b020ed63704f128638/Screenshot%202025-04-13%20013602.png)
 
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
